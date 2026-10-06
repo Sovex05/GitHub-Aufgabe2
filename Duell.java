@@ -7,13 +7,13 @@ public class Duell {
 
     public String ermittleSieger() {
         if(spieler1.gesamtPunkte() > spieler2.gesamtPunkte()) {
-            return "Spieler 1 gewinnt"
+            return "Spieler 1 gewinnt";
         }
         else if(spieler2.gesamtPunkte() > spieler1.gesamtPunkte()) {
-            return "Spieler 2 gewinnt"
+            return "Spieler 2 gewinnt";
         }
         else {
-            return "Unentschieden."
+            return "Unentschieden.";
         }
     }
 }
