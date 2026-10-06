@@ -2,7 +2,8 @@ public class Duell {
     private Spieler spieler1, spieler2;
 
     public Duell(Spieler pSpieler1, Spieler pSpieler2) {
-
+        spieler1 = new Spieler(pSpieler1);
+        spieler2 = new Spieler(pSpieler2);
     }
 
     public String ermittleSieger() {
